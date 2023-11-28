@@ -1,0 +1,162 @@
+.home {
+    background: linear-gradient(to right, rgb(26, 75, 199,0.4) 1%,
+            rgba(255, 255, 255, 0.1)), url("./images/recipeBook.jpg");
+    min-height: 600px !important;
+    background-size: cover;
+}
+
+.logo {
+    color: #FFBE0B !important;
+}
+
+.textLight {
+    color: white;
+}
+
+.btnWarning {
+    background-color: #FFBE0B;
+}
+
+.contact-button {
+    padding: 0.15rem 0.95rem !important;
+}
+
+.content1 {
+    flex-direction: column !important;
+}
+
+.header {
+    margin: auto;
+}
+
+.content-header {
+    font-size: 6.5vw;
+}
+
+.content-text {
+    font-size: 1.5vw;
+}
+.content-text1 {
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 890px) {
+    .content-text {
+        font-size: 4.5vw !important;
+    }
+    .content-text1 {
+        font-size: 3.5vw !important;
+    }
+    .button-section {
+        flex-direction: column;
+        
+    }
+}
+
+.carousel-indicators li {
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 100%;
+}
+.carousel-indicators{
+    bottom: -40px !important;
+}
+.carousel .carousel-indicators li{
+    border: 1px solid grey;
+}
+
+.carousel .carousel-indicators li.active{
+background-color: #1849C6;
+border: none;
+}
+.card1{
+    background-color: #F6F8FD !important;
+    box-shadow: none !important;
+}
+.rounded1{
+    border-radius: 14px !important;
+}
+@media only screen and (min-width: 768px) {
+    .textcontainer1{
+        font-size: 1vw;
+    }
+}
+.btn.active{
+    border-radius:10px !important;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: none !important;
+}
+.section3{
+    background:url('./images/Rectangle\ 81.png')  #1849C6 90%;
+    
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+
+.section5{
+    background:url('./images/pngwing\ 4\ \(1\).png')  #1849C6 90%;
+    
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-top-left-radius: 150px;
+    
+}
+.navbar-light.bg-transparent{
+    box-shadow: none;
+}
+
+.curve1{
+    background-color: #E8EFFF;
+    border-bottom-right-radius: 150px;
+    min-height: 400px;
+}
+.png1,.png2{
+    position: relative;
+    width: 60%;
+    
+}
+.png1{
+    bottom: 38%;
+    left: 120%;
+}
+.png2{
+    bottom: 66%;
+    left: 120%;
+}
+
+.image-fluid1{
+width: 100%;
+height: 100%;
+}
+
+.text-secondary1{
+    color: rgba(0, 1, 3, 0.7) !important;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+}
+
+.section6{
+    background:url('./images/pngwing\ 4.png') #cfdbf8 70%;
+    min-height: 400px;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+      
+}
+
+.popup{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.social .fa-brands{
+        background:#1849C6 ;
+        color: white;
+        padding: 8px;
+        border-radius: 50%;
+     
+}
