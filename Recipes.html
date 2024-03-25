@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nova-square">
+<link rel="stylesheet" href="./styles/style.css">
+<!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.min.css"
+    integrity="sha512-hj9rznBPdFg9A4fACbJcp4ttzdinMDtPrtZ3gBD11DiY3O1xJfn0r1U5so/J0zwfGOzq9teIaH5rFmjFAFw8SA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.lite.min.css"
+    integrity="sha512-Eu5EEZpsrO6niYlnhT+ITom/YVGoIZGEsbAvZ+gUJsO3Xaq9+hX4vZnbecMn/Cq5KOdmNOdehu/U80111W9xsA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<title>My Recipes</title>
+</head>
+
+<body>
+
+<div class="container-fluid section3 pt-5 px-0 pb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent w-100 mb-3">
+
+        <a class="navbar-brand text-white" href="./index.html"><span>
+                <i class="fa-solid fa-bowl-rice text-warning"></i>
+                RecipeBook
+            </span> </a>
+        <span class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars fa-lg text-white"></span>
+        </span>
+
+        <div class="collapse navbar-collapse text-white" id="navbarNav">
+            <ul class="navbar-nav header">
+                <li class="nav-item">
+                    <a class="nav-link text-center text-white border-bottom border-white" href="./Recipes.html">My Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-center" href="./sellRecipe.html">Sell your Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-center" href="./more.html">More Recipes</a>
+                </li>
+
+                <li class="mx-2 text-center">
+                    <button type="button" class="btn btn-warning text-white contact-button px-3">Contact</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row px-4">
+        <div class="col-md-4 p-5" style="float:left">
+            <div class="card mb-2 card1">
+                <img class="card-img-top p-2 rounded4" src="images/cajun.jpg" alt="Cajun Potatoes Image">
+        <div class="card-body">
+            <h4 class="card-title"><i class="fa fa-utensils"></i><span class="ml-2 text-grey">Cajun Potatoes</span></h4>
+            <p><strong>Unique Feature:</strong> Spicy and flavorful Cajun-seasoned potatoes.</p>
+            <p><strong>Ratings:</strong>
+                <span class="text-warning">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </span>
+            </p>
+            <p><strong>Cost:</strong> Inexpensive</p>
+            <p class="mx-auto"><a data-toggle="modal" data-target="#recipeModalCajunPotatoes" class="btn btn-primary active">View Recipe</a></p>
+        </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5" style="float:left">
+            <div class="card mb-2 card1">
+                <img class="card-img-top p-2 rounded3" src="images/apricot.jpg" alt="Apricot Delight Image">
+        <div class="card-body">
+            <h4 class="card-title"><i class="fa fa-utensils"></i><span class="ml-2 text-grey">Apricot Delight</span></h4>
+            <p><strong>Unique Feature:</strong> A delightful dessert with the sweetness of apricots.</p>
+            <p><strong>Ratings:</strong>
+                <span class="text-warning">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </span>
+            </p>
+            <p><strong>Cost:</strong> Moderate</p>
+            <p class="mx-auto"><a data-toggle="modal" data-target="#recipeModalApricotDelight" class="btn btn-primary active">View Recipe</a></p>
+        </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5" style="float:left">
+            <div class="card mb-2 card1">
+                <img class="card-img-top p-2 rounded2" src="images/tresleches.jpg" alt="Tres Leches Image">
+        <div class="card-body">
+            <h4 class="card-title"><i class="fa fa-utensils"></i><span class="ml-2 text-grey">Tres Leches Cake</span></h4>
+            <p><strong>Unique Feature:</strong> A moist and decadent cake soaked in three types of milk.</p>
+            <p><strong>Ratings:</strong>
+                <span class="text-warning">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </span>
+            </p>
+            <p><strong>Cost:</strong> Moderate</p>
+            <p class="mx-auto"><a data-toggle="modal" data-target="#recipeModalTresLeches" class="btn btn-primary active">View Recipe</a></p>
+        </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2 px-4">
+        <div class="col-md-4 p-5" style="float:left">
+            <div class="card mb-2 card1">
+                <img class="card-img-top p-2 rounded3" src="images/shrimp.jpg" alt="Shrimp Pasta Image">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="fa fa-utensils"></i><span class="ml-2 text-grey">Garlic Butter Shrimp Pasta</span></h4>
+                    <p><strong>Unique Feature:</strong> Succulent shrimp with garlic butter sauce.</p>
+                    <p><strong>Ratings:</strong>
+                        <span class="text-warning">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                    </p>
+                    <p><strong>Cost:</strong> Moderate</p>
+                    <p class="mx-auto"><a data-toggle="modal" data-target="#recipeModal3" class="btn btn-primary active">View Recipe</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5" style="float:left">
+            <div class="card mb-2 card1">
+                <img class="card-img-top p-2 rounded2" src="images/spegetti.jpg" alt="Spaghetti Image">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="fa fa-utensils"></i><span class="ml-2 text-grey">Classic Spaghetti Bolognese</span></h4>
+                    <p><strong>Unique Feature:</strong> Traditional meat sauce with a hint of red wine.</p>
+                    <p><strong>Ratings:</strong>
+                        <span class="text-warning">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                    </p>
+                    <p><strong>Cost:</strong> Affordable</p>
+                    <p class="mx-auto"><a  data-toggle="modal" data-target="#recipeModal2" class="btn btn-primary active">View Recipe</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5" style="float:left">
+            <div class="card mb-2 card1">
+                <img class="card-img-top p-2 rounded1" src="images/alfredo.jpg" alt="Pasta Image">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="fa fa-utensils"></i><span class="ml-2 text-grey">Creamy Alfredo Pasta</span></h4>
+                    <p><strong>Unique Feature:</strong> A rich and indulgent Alfredo sauce made from scratch.</p>
+                    <p><strong>Ratings:</strong>
+                        <span class="text-warning">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </span>
+                    </p>
+                    <p><strong>Cost:</strong> Moderate</p>
+                    <p class="mx-auto"><a  data-toggle="modal" data-target="#recipeModal1" class="btn btn-primary active">View Recipe</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Recipe Modal 1 -->
+<div class="modal fade" id="recipeModal1" tabindex="-1" role="dialog" aria-labelledby="recipeModalLabel1" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="recipeModal1Label">Creamy Alfredo Pasta Recipe</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p><strong>Ingredients:</strong></p>
+            <ul>
+                <li>1 lb fettuccine pasta</li>
+                <li>1/2 cup unsalted butter</li>
+                <li>1 cup heavy cream</li>
+                <li>1 cup grated Parmesan cheese</li>
+                <li>Salt and black pepper to taste</li>
+                <li>Chopped parsley for garnish</li>
+            </ul>
+
+            <p><strong>Instructions:</strong></p>
+            <ol>
+                <li>Cook the fettuccine pasta according to package instructions. Drain and set aside.</li>
+                <li>In a saucepan, melt the butter over medium heat.</li>
+                <li>Stir in the heavy cream and bring it to a simmer.</li>
+                <li>Reduce heat to low and gradually whisk in the Parmesan cheese until melted and smooth.</li>
+                <li>Season the sauce with salt and black pepper to taste.</li>
+                <li>Add the cooked pasta to the sauce and toss until well coated.</li>
+                <li>Garnish with chopped parsley and serve immediately.</li>
+            </ol>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="recipeModal2" tabindex="-1" role="dialog" aria-labelledby="recipeModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="recipeModal2Label">Classic Spaghetti Bolognese Recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>1 lb spaghetti</li>
+                    <li>1 lb ground beef</li>
+                    <li>1 onion, finely chopped</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>1 can (28 oz) crushed tomatoes</li>
+                    <li>1/2 cup red wine</li>
+                    <li>2 tablespoons tomato paste</li>
+                    <li>1 teaspoon dried oregano</li>
+                    <li>Salt and black pepper to taste</li>
+                    <li>Grated Parmesan cheese for serving</li>
+                </ul>
+
+                <p><strong>Instructions:</strong></p>
+                <ol>
+                    <li>Cook the spaghetti according to package instructions. Drain and set aside.</li>
+                    <li>In a large skillet, brown the ground beef over medium heat.</li>
+                    <li>Add the chopped onion and garlic, sauté until softened.</li>
+                    <li>Pour in the crushed tomatoes, red wine, and tomato paste. Stir in oregano, salt, and pepper.</li>
+                    <li>Simmer the sauce for 20-30 minutes, stirring occasionally.</li>
+                    <li>Serve the Bolognese sauce over cooked spaghetti, garnished with grated Parmesan.</li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recipe 3 Modal -->
+<div class="modal fade" id="recipeModal3" tabindex="-1" role="dialog" aria-labelledby="recipeModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="recipeModal3Label">Garlic Butter Shrimp Pasta Recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>8 oz linguine pasta</li>
+                    <li>1 lb large shrimp, peeled and deveined</li>
+                    <li>4 tablespoons unsalted butter</li>
+                    <li>4 cloves garlic, minced</li>
+                    <li>1/2 teaspoon red pepper flakes</li>
+                    <li>1 cup cherry tomatoes, halved</li>
+                    <li>1/4 cup fresh parsley, chopped</li>
+                    <li>Salt and black pepper to taste</li>
+                    <li>Grated Parmesan cheese for serving</li>
+                </ul>
+
+                <p><strong>Instructions:</strong></p>
+                <ol>
+                    <li>Cook the linguine pasta according to package instructions. Drain and set aside.</li>
+                    <li>In a large skillet, melt the butter over medium heat.</li>
+                    <li>Add minced garlic and red pepper flakes, sauté until fragrant.</li>
+                    <li>Add shrimp to the skillet and cook until pink and opaque.</li>
+                    <li>Stir in cherry tomatoes and cooked pasta. Toss until well combined.</li>
+                    <li>Season with salt and black pepper, garnish with fresh parsley.</li>
+                    <li>Serve with a sprinkle of grated Parmesan cheese.</li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tres Leches Modal -->
+<div class="modal fade" id="recipeModalTresLeches" tabindex="-1" role="dialog" aria-labelledby="recipeModalTresLechesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="recipeModalTresLechesLabel">Tres Leches Cake Recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>1 cup all-purpose flour</li>
+                    <li>1 1/2 teaspoons baking powder</li>
+                    <li>1/2 cup unsalted butter, softened</li>
+                    <li>1 cup granulated sugar</li>
+                    <li>4 large eggs</li>
+                    <li>1 teaspoon vanilla extract</li>
+                    <li>1/2 cup whole milk</li>
+                    <li>1 can (14 oz) sweetened condensed milk</li>
+                    <li>1 can (12 oz) evaporated milk</li>
+                    <li>1 cup heavy cream</li>
+                    <li>Ground cinnamon for garnish</li>
+                </ul>
+
+                <p><strong>Instructions:</strong></p>
+                <ol>
+                    <li>Preheat the oven to 350°F (175°C). Grease and flour a 9x13 inch baking pan.</li>
+                    <li>In a medium bowl, whisk together flour and baking powder. Set aside.</li>
+                    <li>In a large mixing bowl, cream together butter and sugar until light and fluffy.</li>
+                    <li>Beat in eggs one at a time, then stir in vanilla extract.</li>
+                    <li>Gradually add the flour mixture, alternating with the milk. Begin and end with the flour mixture.</li>
+                    <li>Pour the batter into the prepared pan and smooth the top.</li>
+                    <li>Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.</li>
+                    <li>While the cake is baking, whisk together sweetened condensed milk, evaporated milk, and heavy cream.</li>
+                    <li>Once the cake is done, poke holes all over the top with a fork or skewer.</li>
+                    <li>Pour the milk mixture evenly over the cake while it's still warm.</li>
+                    <li>Allow the cake to cool completely in the refrigerator, preferably overnight.</li>
+                    <li>Before serving, sprinkle the top with ground cinnamon.</li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Apricot Delight Modal -->
+<div class="modal fade" id="recipeModalApricotDelight" tabindex="-1" role="dialog" aria-labelledby="recipeModalApricotDelightLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="recipeModalApricotDelightLabel">Apricot Delight Recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>2 cups dried apricots</li>
+                    <li>1 cup boiling water</li>
+                    <li>1 cup graham cracker crumbs</li>
+                    <li>1/2 cup unsalted butter, melted</li>
+                    <li>1 cup cream cheese, softened</li>
+                    <li>1 cup powdered sugar</li>
+                    <li>1 teaspoon vanilla extract</li>
+                    <li>1 cup heavy cream, whipped</li>
+                    <li>Chopped nuts for garnish (optional)</li>
+                </ul>
+
+                <p><strong>Instructions:</strong></p>
+                <ol>
+                    <li>In a bowl, combine dried apricots and boiling water. Let them soak for 1 hour, then drain.</li>
+                    <li>In a food processor, blend soaked apricots until smooth.</li>
+                    <li>In a separate bowl, mix graham cracker crumbs with melted butter. Press into the bottom of a serving dish to create the crust.</li>
+                    <li>In another bowl, beat cream cheese, powdered sugar, and vanilla extract until smooth.</li>
+                    <li>Fold in the apricot puree into the cream cheese mixture.</li>
+                    <li>Whip the heavy cream until stiff peaks form. Gently fold it into the apricot and cream cheese mixture.</li>
+                    <li>Pour the mixture over the crust in the serving dish.</li>
+                    <li>Refrigerate for at least 4 hours or overnight until set.</li>
+                    <li>Garnish with chopped nuts if desired before serving.</li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cajun Potatoes Modal -->
+<div class="modal fade" id="recipeModalCajunPotatoes" tabindex="-1" role="dialog" aria-labelledby="recipeModalCajunPotatoesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="recipeModalCajunPotatoesLabel">Cajun Potatoes Recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>2 lbs baby potatoes, halved</li>
+                    <li>2 tablespoons olive oil</li>
+                    <li>1 tablespoon Cajun seasoning</li>
+                    <li>1 teaspoon paprika</li>
+                    <li>1 teaspoon garlic powder</li>
+                    <li>1 teaspoon onion powder</li>
+                    <li>1/2 teaspoon dried thyme</li>
+                    <li>1/2 teaspoon dried oregano</li>
+                    <li>Salt and black pepper to taste</li>
+                    <li>Fresh parsley for garnish</li>
+                </ul>
+
+                <p><strong>Instructions:</strong></p>
+                <ol>
+                    <li>Preheat the oven to 400°F (200°C).</li>
+                    <li>In a large bowl, toss halved baby potatoes with olive oil, Cajun seasoning, paprika, garlic powder, onion powder, dried thyme, dried oregano, salt, and black pepper until well coated.</li>
+                    <li>Spread the seasoned potatoes on a baking sheet in a single layer.</li>
+                    <li>Bake in the preheated oven for 25-30 minutes or until the potatoes are golden brown and crispy, flipping them halfway through.</li>
+                    <li>Remove from the oven, garnish with fresh parsley, and serve hot.</li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row py-5">
+        <div class="col-12 col-md-4">
+            <a class="navbar-brand text-dark font-weight-bold" href="#"><span>
+                    <i class="fa-solid fa-bowl-rice text-primary active"></i>
+                    RecipeBook
+                </span> </a>
+            <p>Embark on a culinary journey with our diverse recipes, from savory delights to sweet masterpieces.
+            </p>
+            
+        </div>
+        <div class="col-12 col-md-2">
+            <h6 class="font-weight-bold">Quick Links</h6>
+            <p>Active Recipe</p>
+            <p><a href="./sellRecipe.html">Sell Recipe</a></p>
+            <p><a href="./contact.html">Contact</a></p>
+            <p><a href="./more.html">More To Explore</a></p>
+        </div>
+        <div class="col-12 col-md-3">
+            <h6 class="font-weight-bold">Newsleter</h6>
+            <p>Get latest updates right in your inbox</p>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter your email">
+            <button type="button"
+                class="btn btn-primary active mx-3 content-text1 my-2 mx-auto text-white">Subscribe
+                Now</button>
+
+        </div>
+
+        <div class="col-12 col-md-3">
+            <h6 class="font-weight-bold">Let’s get social</h6>
+            <div class="d-flex social justify-content-around w-50 pt-2">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="dropdown pt-4">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-earth-asia"></i> English-EN
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><i class="fa-solid fa-earth-asia"></i> English-EN</li>
+                    <li><i class="fa-solid fa-earth-asia"></i> English-EN</li>
+                    <li><i class="fa-solid fa-earth-asia"></i> English-EN</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js"
+integrity="sha512-XFd1m0eHgU1F05yOmuzEklFHtiacLVbtdBufAyZwFR0zfcq7vc6iJuxerGPyVFOXlPGgM8Uhem9gwzMI8SJ5uw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+</body>
+
+</html>

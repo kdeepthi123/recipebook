@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nova-square">
+    <link rel="stylesheet" href="./styles/style.css">
     <!-- Latest compiled and minified CSS -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -19,6 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.lite.min.css"
         integrity="sha512-Eu5EEZpsrO6niYlnhT+ITom/YVGoIZGEsbAvZ+gUJsO3Xaq9+hX4vZnbecMn/Cq5KOdmNOdehu/U80111W9xsA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+
 
     <title>RecipeBook</title>
 </head>
@@ -38,17 +41,18 @@
             <div class="collapse navbar-collapse text-white" id="navbarNav">
                 <ul class="navbar-nav header">
                     <li class="nav-item">
-                        <a class="nav-link text-center text-white" href="#">My Recipes</a>
+                        <a class="nav-link text-center text-white" href="./Recipes.html">My Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#">Sell your Recipes</a>
+                        <a class="nav-link text-white text-center" href="./sellRecipe.html">Sell your Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#">More Recipes</a>
+                        <a class="nav-link text-white text-center" href="./more.html">More Recipes</a>
                     </li>
 
                     <li class="mx-2 text-center">
-                        <button type="button" class="btn btn-warning text-white contact-button px-3">Contact</button>
+                        <button type="button" class="btn btn-warning text-white contact-button px-3" onclick="window.location.href='./contact.html'">Contact</button>
+
                     </li>
                 </ul>
             </div>
@@ -70,12 +74,9 @@
     </div>
     <div class="container my-5">
         <div class="w-75 mx-auto">
-            <p class="h2 text-center">Featured Self Storages</p>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor sapien sagittis
-                maecenas tincidunt. Quis pretium ornare</p>
-
+            <p class="h2 text-center">Featured Recipes</p>
+            <p class="text-center">"Embark on a culinary journey with our diverse recipes, from savory delights to sweet masterpieces. Whether you're a novice or an experienced chef, find the perfect balance of flavor, simplicity, and creativity in each carefully crafted dish."</p>
         </div>
-
 
 
         <!--Carousel Wrapper-->
@@ -221,245 +222,25 @@
         </div>
         <!--/.Carousel Wrapper-->
     </div>
-    <div class="container-fluid section3 p-5">
-        <div class="row">
-            <div class="col-md-4" style="float:left">
-                <div class="card mb-2 card1">
-                    <img class="card-img-top p-2 rounded1" src="images/Rectangle 2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title"><i class="fa fa-location-dot"></i><span class="ml-2 text-grey">Jersey
-                                City, NJ</span></h4>
-                        <p><i class="fa fa-building"></i><span class="ml-2 text-grey">Total
-                                Units:89</span></p>
-                        <p><i class="fa fa-user-group"></i><span class="ml-2 text-grey">Occupancy:50%</span></p>
-                        <p><i class="fa-solid fa-maximize"></i><span class="ml-2 text-grey">Size:40,233 Sq
-                                Ft</span></p>
-                        <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="float:left">
-                <div class="card mb-2 card1">
-                    <img class="card-img-top p-2 rounded1" src="images/Rectangle 2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title"><i class="fa fa-location-dot"></i><span class="ml-2 text-grey">Jersey
-                                City, NJ</span></h4>
-                        <p><i class="fa fa-building"></i><span class="ml-2 text-grey">Total
-                                Units:89</span></p>
-                        <p><i class="fa fa-user-group"></i><span class="ml-2 text-grey">Occupancy:50%</span></p>
-                        <p><i class="fa-solid fa-maximize"></i><span class="ml-2 text-grey">Size:40,233 Sq
-                                Ft</span></p>
-                        <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="float:left">
-                <div class="card mb-2 card1">
-                    <img class="card-img-top p-2 rounded1" src="images/Rectangle 2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title"><i class="fa fa-location-dot"></i><span class="ml-2 text-grey">Jersey
-                                City, NJ</span></h4>
-                        <p><i class="fa fa-building"></i><span class="ml-2 text-grey">Total
-                                Units:89</span></p>
-                        <p><i class="fa fa-user-group"></i><span class="ml-2 text-grey">Occupancy:50%</span></p>
-                        <p><i class="fa-solid fa-maximize"></i><span class="ml-2 text-grey">Size:40,233 Sq
-                                Ft</span></p>
-                        <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-2">
-            <div class="col-md-4" style="float:left">
-                <div class="card mb-2 card1">
-                    <img class="card-img-top p-2 rounded1" src="images/Rectangle 2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title"><i class="fa fa-location-dot"></i><span class="ml-2 text-grey">Jersey
-                                City, NJ</span></h4>
-                        <p><i class="fa fa-building"></i><span class="ml-2 text-grey">Total
-                                Units:89</span></p>
-                        <p><i class="fa fa-user-group"></i><span class="ml-2 text-grey">Occupancy:50%</span></p>
-                        <p><i class="fa-solid fa-maximize"></i><span class="ml-2 text-grey">Size:40,233 Sq
-                                Ft</span></p>
-                        <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="float:left">
-                <div class="card mb-2 card1">
-                    <img class="card-img-top p-2 rounded1" src="images/Rectangle 2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title"><i class="fa fa-location-dot"></i><span class="ml-2 text-grey">Jersey
-                                City, NJ</span></h4>
-                        <p><i class="fa fa-building"></i><span class="ml-2 text-grey">Total
-                                Units:89</span></p>
-                        <p><i class="fa fa-user-group"></i><span class="ml-2 text-grey">Occupancy:50%</span></p>
-                        <p><i class="fa-solid fa-maximize"></i><span class="ml-2 text-grey">Size:40,233 Sq
-                                Ft</span></p>
-                        <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="float:left">
-                <div class="card mb-2 card1">
-                    <img class="card-img-top p-2 rounded1" src="images/Rectangle 2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title"><i class="fa fa-location-dot"></i><span class="ml-2 text-grey">Jersey
-                                City, NJ</span></h4>
-                        <p><i class="fa fa-building"></i><span class="ml-2 text-grey">Total
-                                Units:89</span></p>
-                        <p><i class="fa fa-user-group"></i><span class="ml-2 text-grey">Occupancy:50%</span></p>
-                        <p><i class="fa-solid fa-maximize"></i><span class="ml-2 text-grey">Size:40,233 Sq
-                                Ft</span></p>
-                        <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row ">
-            <button type="button" class="btn btn-warning mx-3 content-text1 my-2 mx-auto text-secondary1">View More
-                Listings</button>
-
-        </div>
-    </div>
-    <div class="container-fluid section4 p-0">
-        <div class="d-flex w-100 curve1 pt-5 m-0 row">
-            <div class="p-5 col-12 col-md-8">
-                <h5 class="font-weight-bold">Do you have a Self Storage for Sale?</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor sapien sagittis maecenas
-                    tincidunt. Quis pretium ornare id diam amet proin scelerisque nunc.</p>
-                <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-
-            </div>
-            <div class="p-5 col-12 col-md-4"><img src="./images/image.png" class="image-fluid1" /></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="d-flex w-100 pt-5 row">
-            <div class="col-12 col-md-6"><img src="./images/pngwing 3.png" class="w-100" /></div>
-            <div class="p-5 col-12 col-md-6">
-                <h5 class="font-weight-bold mt-2">Do you want to buy a Self Storage?</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor sapien sagittis maecenas
-                    tincidunt. Quis pretium ornare id diam amet proin scelerisque nunc.</p>
-                <p class="mx-auto"><a class="btn btn-primary active">View More Details</a></p>
-
-
-            </div>
-
-        </div>
-
-    </div>
-    <div class="container-fluid section5">
-        <div class="row text-white w-50 mx-auto text-center pt-5">
-            <h3>Learn Everything About Buying, Selling, and Operating a Self Storage</h3>
-            <p>Learn about literally anything to know about Selling or Buying a Self Storage</p>
-        </div>
-        <div class="row p-5">
-            <div class="col-md-3 mt-3   " style="float:left">
-                <div class="card h-100 mb-2 card1">
-                    <img class="card-img-top p-1 rounded1" src="images/image 16.png" alt="Card image cap">
-                    <div class="card-body textcontainer1">
-                        <h6 class="card-title">Everything you need to know about how to buy a Self Storage</h6>
-                        <div class="d-flex justify-content-around">
-                            <span><i class="fa-solid fa-clock"></i> 6hrs ago </span>
-                            <span><i class="fa-solid fa-tag"></i></i> Buy </span>
-                            <span><i class="fa-solid fa-circle-user"></i> Raza </span>
-                        </div>
-                        <p class="mx-auto"><a class="btn btn-primary active">Read More</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mt-3" style="float:left">
-                <div class="card h-100 mb-2 card1">
-                    <img class="card-img-top p-1 rounded1" src="images/image 17.png" alt="Card image cap">
-                    <div class="card-body textcontainer1">
-                        <h6 class="card-title">Everything you need to know about how to buy a Self Storage</h6>
-                        <div class="d-flex justify-content-around">
-                            <span><i class="fa-solid fa-clock"></i> 6hrs ago </span>
-                            <span><i class="fa-solid fa-tag"></i></i> Buy </span>
-                            <span><i class="fa-solid fa-circle-user"></i> Raza </span>
-                        </div>
-                        <p class="mx-auto"><a class="btn btn-primary active">Read More</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mt-3" style="float:left">
-                <div class="card h-100 mb-2 card1">
-                    <img class="card-img-top p-1 rounded1" src="images/image 19.png" alt="Card image cap">
-                    <div class="card-body textcontainer1">
-                        <h6 class="card-title">Everything you need to know about how to buy a Self Storage</h6>
-                        <div class="d-flex justify-content-around">
-                            <span><i class="fa-solid fa-clock"></i> 6hrs ago </span>
-                            <span><i class="fa-solid fa-tag"></i></i> Buy </span>
-                            <span><i class="fa-solid fa-circle-user"></i> Raza </span>
-                        </div>
-                        <p class="mx-auto"><a class="btn btn-primary active">Read More</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mt-3" style="float:left">
-                <div class="card h-100 mb-2 card1">
-                    <img class="card-img-top p-1 rounded1" src="images/image 7.png" alt="Card image cap">
-                    <div class="card-body textcontainer1">
-                        <h6 class="card-title">Everything you need to know about how to buy a Self Storage</h6>
-                        <div class="d-flex justify-content-around">
-                            <span><i class="fa-solid fa-clock"></i> 6hrs ago </span>
-                            <span><i class="fa-solid fa-tag"></i></i> Buy </span>
-                            <span><i class="fa-solid fa-circle-user"></i> Raza </span>
-                        </div>
-                        <p class="mx-auto"><a class="btn btn-primary active">Read More</a></p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row ">
-            <button type="button" class="btn btn-warning mx-3 content-text1 my-1 mb-5 mx-auto text-secondary1">Explore
-                the Learning Section</button>
-
-        </div>
-    </div>
-    <div class="container-fluid section6 p-5">
-        <div class="m-5 popup p-5 d-flex bg-white rounded row">
-            <div class="col-12 col-md-8">
-                <h4 class="font-weight-bold">Any Queries? Reach Out to Us</h4>
-                <p>Feel free to write to us, we are happy to help you</p>
-            </div>
-            <div class="col-12 col-md-4">
-                <button type="button" class="btn btn-primary active mx-3 content-text1 my-2 mx-auto text-white">Write to
-                    Us <i class="fa-solid fa-paper-plane"></i></button>
-
-            </div>
-
-        </div>
-    </div>
+   
+   
+   
     <div class="container-fluid">
         <div class="row py-5">
             <div class="col-12 col-md-4">
                 <a class="navbar-brand text-dark font-weight-bold" href="#"><span>
-                        <i class="fa-solid fa-box-archive text-primary active"></i>
+                        <i class="fa-solid fa-bowl-rice text-primary active"></i>
                         RecipeBook
                     </span> </a>
-                <p>Nam posuere accumsan porta. Integer id orci sed ante tincidunt tincidunt sit amet sed libero.</p>
-                <p>© RecipeBook 2022, All Rights Reserved</p>
+                <p>Embark on a culinary journey with our diverse recipes, from savory delights to sweet masterpieces.</p>
+                
             </div>
             <div class="col-12 col-md-2">
                 <h6 class="font-weight-bold">Quick Links</h6>
-                <p>Active Listings</p>
-                <p>Self your Self Storage</p>
-                <p>Free Evaluation</p>
-                <p>Learn</p>
+                <p><a href="./Recipes.html">Active Recipes</a></p>
+                <p><a href="./sellRecipe.html">Sell Recipe</a></p>
+                <p><a href="./contact.html">Contact</a></p>
+                <p><a href="./more.html">More To Explore</a></p>
             </div>
             <div class="col-12 col-md-3">
                 <h6 class="font-weight-bold">Newsleter</h6>
